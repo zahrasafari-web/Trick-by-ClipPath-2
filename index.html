@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trick 3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        img{
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            transition: 0.3s;
+            display: block;
+            margin: 200px auto;
+        }
+        img:hover{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    </style>
+</head>
+<body>
+    <img src="img/download.jpg" alt="">
+</body>
+</html>
